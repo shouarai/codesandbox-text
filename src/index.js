@@ -95,17 +95,51 @@
  *  配列のコピー、結合
  */
 //コピー
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
-const arr6 = [...arr4];
-console.log(arr6);
+// const arr6 = [...arr4];
+// console.log(arr6);
 
-//結合
-const arr7 = [...arr4, ...arr5];
-console.log(arr7);
+// //結合
+// const arr7 = [...arr4, ...arr5];
+// console.log(arr7);
 
 /**
  * 結合をconst arr7=arr4でやってしまうと
  * arr7[0]=100とやるとarr4の値も変わってしまう
  */
+
+/**
+ * mapやfilterを使った配列の処理
+ */
+// const nameArr = ["田中", "山田", "じゃけぇ"];
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(nameArr[index]);
+// }
+
+/**
+ *  配列.map((引数1,引数2)=>{
+ *  return
+ * }))
+ * 引数1の数だけ処理
+ * 引数2 index
+ * */
+
+// nameArr.map((name) => console.log(name));
+
+/**
+ * filter
+ */
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArray = numArr.filter((num) => {
+//   return num % 2 === 1;
+// });
+// console.log(newNumArray);
+
+/**
+ * 三項演算子
+ * ある条件 ? 条件がtrueの場合:条件がfalseの場合
+ */
+//const num =1300
+//const numResult = typeof === "number" ? num.toLocaleStirng():"数値を入力してください"
