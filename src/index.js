@@ -46,7 +46,7 @@
 /**
  * 分割代入
  */
-//オブジェクト
+//分割代入オブジェクト
 // const myprofile = {
 //   name: "じゃけぇ",
 //   age: 28
@@ -56,7 +56,7 @@
 // const message2 = `名前${name}です。年齢は${age}です。`;
 // console.log(message2);
 
-//配列
+//分割代入配列
 // const myprofile = ["じゃけぇ", 28];
 // const [name, age] = myprofile;
 // const message3 = `名前${name}です。年齢は${age}です。`;
